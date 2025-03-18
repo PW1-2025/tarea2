@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Clase 2 - Historia y Fundamentos de la Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function toggleInfo() {
+            var info = document.getElementById("gitInfo");
+            if (info.style.display === "none") {
+                info.style.display = "block";
+            } else {
+                info.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Guía de Clase 2 - Historia y Fundamentos de la Web</h1>
+        
+        <h2>Conceptos Claves</h2>
+        <ul>
+            <li>Historia de la web y su evolución</li>
+            <li>Principales estándares web (HTML, CSS, JS)</li>
+            <li>Usabilidad y accesibilidad</li>
+            <li>Internacionalización y localización</li>
+            <li>Tipos de etiquetas HTML y selectores CSS</li>
+            <li>DOM (modelo de objetos de documento)</li>
+        </ul>
+        
+        <h2>Personajes Claves en la Historia de la Web</h2>
+        <ul>
+            <li><strong>Tim Berners-Lee</strong> - Inventor de la World Wide Web</li>
+            <li><strong>Brendan Eich</strong> - Creador de JavaScript</li>
+            <li><strong>Håkon Wium Lie</strong> - Inventor de CSS</li>
+            <li><strong>Douglas Crockford</strong> - Popularizador de JSON</li>
+            <li><strong>Jeffrey Zeldman</strong> - Pionero en estándares web</li>
+        </ul>
+        
+        <h2>Instituciones y Estándares</h2>
+        <ul>
+            <li><strong>W3C</strong> - World Wide Web Consortium (Define estándares web)</li>
+            <li><strong>ECMA International</strong> - Estandarización de JavaScript</li>
+            <li><strong>WHATWG</strong> - Desarrollo de HTML5</li>
+            <li><strong>IETF</strong> - Definir protocolos web como HTTP y TCP/IP</li>
+        </ul>
+        
+        <h2>Herramientas y Tecnologías Relacionadas</h2>
+        <ul>
+            <li>Frameworks CSS: Bootstrap, Tailwind</li>
+            <li>Preprocesadores CSS: SASS, LESS</li>
+            <li>JavaScript y Frameworks: React, Angular, Vue.js</li>
+            <li>Backend para Web: Node.js, Django, PHP</li>
+            <li>Bases de datos en entornos web: MySQL, MongoDB</li>
+            <li>
+                <button onclick="toggleInfo()">Versionado y control de código: Git y GitHub ▼</button>
+                <div id="gitInfo" style="display: none; margin-top: 10px;">
+                    <p><a href="https://es.wikipedia.org/wiki/Git" target="_blank"><strong>Git</strong></a>: Sistema de control de versiones distribuido que permite gestionar cambios en el código.</p>
+                    <p><a href="https://es.wikipedia.org/wiki/GitHub" target="_blank"><strong>GitHub</strong></a>: Plataforma basada en la nube para almacenar y colaborar en proyectos con Git.</p>
+                     </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
