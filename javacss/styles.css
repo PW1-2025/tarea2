@@ -1,0 +1,25 @@
+* {
+  font-family: Calibri;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+.fwork {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-items: center;
+  flex-direction: row;
+}
+.fwork#react {
+  flex-direction: column;
+}
+.fwork#vuejs {
+  flex-direction: column;
+}
+.fwork#angular {
+  flex-direction: column;
+}/*# sourceMappingURL=styles.css.map */

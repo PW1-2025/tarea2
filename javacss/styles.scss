@@ -1,0 +1,23 @@
+*{
+    font-family: Calibri;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.fwork{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    flex-direction: row;
+    &#react{
+        flex-direction: column;
+    }
+    &#vuejs{
+        flex-direction: column;
+    }
+    &#angular{
+        flex-direction: column;
+    }
+}
