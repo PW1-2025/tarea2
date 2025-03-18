@@ -144,7 +144,3 @@
 - **Reflexión:**  
   - Cómo el conocimiento de estos fundamentos permite comprender y adaptarse a nuevas tecnologías.
   - La importancia de la colaboración y el autoaprendizaje en el camino hacia el éxito profesional en el ámbito web.
-
----
-
-Este contenido proporciona una visión completa y cronológica de la evolución de la web, enfocado en las tecnologías y los protagonistas esenciales. Además, integra la dinámica colaborativa en GitHub para que los estudiantes pongan en práctica la gestión de proyectos y el trabajo en equipo. ¿Te parece adecuado este enfoque o deseas ajustar algún aspecto adicional?
