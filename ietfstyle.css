@@ -1,0 +1,43 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para los títulos */
+h1 {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* Estilos para los párrafos */
+p {
+    margin-bottom: 20px;
+}
+
+/* Estilos para elementos fuertes (strong) */
+strong {
+    color: #0056b3;
+}
+
+/* Estilos para abreviaturas (abbr) */
+abbr {
+    cursor: help;
+    border-bottom: 1px dotted #333;
+}
