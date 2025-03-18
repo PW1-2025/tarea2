@@ -1,0 +1,41 @@
+*{
+    font-family: Calibri;
+    background-color: aliceblue;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    & .link{
+        text-decoration: none;
+        color: black;
+        transition: ease 0.5ms;
+        & :hover{
+            transform: scale(1.1);
+        }
+    }
+    &.fwork{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        justify-items: center;
+        flex-direction: row;
+        &#react{
+            flex-direction: column;
+        }
+        &#vuejs{
+            flex-direction: column;
+        }
+        &#angular{
+            flex-direction: column;
+        }
+    }
+}
+h2{
+    display: flex;
+    align-items: center;
+}

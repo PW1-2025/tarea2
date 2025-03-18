@@ -5,11 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guía de Clase 2 - Historia y Fundamentos de la Web</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        function toggleInfo() {
+            var info = document.getElementById("db-info");
+            if (info.style.display === "none" || info.style.display === "") {
+                info.style.display = "block";
+            } else {
+                info.style.display = "none";
+            }
+        }
+    </script>
+    <style>
+        .toggle-button {
+            cursor: pointer;
+            color: blue;
+            text-decoration: underline;
+        }
+        #db-info {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h1>Guía de Clase 2 - Historia y Fundamentos de la Web</h1>
         
+
         <h2>Conceptos Claves</h2>
         <ul>
             <li>Historia de la web y su evolución</li>
@@ -22,12 +47,40 @@
         
         <h2>Personajes Claves en la Historia de la Web</h2>
         <ul>
-            <li><strong>Tim Berners-Lee</strong> - Inventor de la World Wide Web</li>
-            <li><strong>Brendan Eich</strong> - Creador de JavaScript</li>
+            <li>
+                <strong>Tim Berners-Lee</strong> - Inventor de la World Wide Web  
+                <br>
+                <img src="tim.jpg" alt="Foto de Tim Berners-Lee" width="400">
+                <p>Tim Berners-Lee es el creador de la World Wide Web en 1989. Diseñó HTML, HTTP y el primer navegador.</p>
+                <h4>El desarrollo de la World Wide Web</h4>
+                <p>Berners-Lee empezó a desarrollar la World Wide Web en 1989. Creó el primer navegador y el primer servidor web, que permitían a los usuarios acceder a la información a través de Internet. También desarrolló HTML, el lenguaje utilizado para crear páginas web.</p>
+                <h4>El impacto de la World Wide Web</h4>
+                <p>El impacto de la World Wide Web ha sido significativo. Ha transformado nuestra forma de comunicarnos, trabajar y acceder a la información. Ha hecho posible que personas de todo el mundo se conecten y compartan información con facilidad y eficacia.</p>
+                <p>También ha tenido un impacto significativo en las empresas, permitiendo llegar a un público mundial y creando nuevas oportunidades para el comercio electrónico y el marketing en línea.</p>
+                <p>Si quieres más información sobre Tim Berners-Lee, visita: 
+                    <a href="https://www.cisinformatica.cat/es/tim-berners-lee-que-invento/#:~:text=Berners%2DLee%20empez%C3%B3%20a%20desarrollar,utilizado%20para%20crear%20p%C3%A1ginas%20web." target="_blank">CIS Informática</a>.
+                </p>
+            </li>
+            
+            <li>
+                <strong>Brendan Eich</strong> - Creador de JavaScript  
+                <br>
+                <img src="Brendan.webp" alt="Foto de Brendan Eich" width="400">
+                <p>Brendan Eich desarrolló JavaScript en solo 10 días en 1995 mientras trabajaba en Netscape.</p>
+                <h4>Uno de los padres de las páginas web más modernas</h4>
+                <p>Internet no ha sido siempre como lo conocemos hoy en día. Ha pasado por muchas fases, desde una página de simple lectura hasta complejas plataformas interactivas.</p>
+                <p>Gracias a Brendan Eich y JavaScript, los sitios web han evolucionado para incluir interactividad avanzada, como listas de reproducción, carruseles de imágenes y aplicaciones web.</p>
+                <p>Con estudios en Matemáticas y Ciencias de la Comunicación, trabajó en sistemas operativos y código de red para Silicon Graphics antes de unirse a Netscape en 1995, donde desarrolló JavaScript.</p>
+                <p>Si quieres saber más sobre Brendan Eich, visita: 
+                    <a href="https://cryptonica.news/es/people/eich-brendan" target="_blank">Cryptonica News</a>.
+                </p>
+            </li>
+            
             <li><strong>Håkon Wium Lie</strong> - Inventor de CSS</li>
             <li><strong>Douglas Crockford</strong> - Popularizador de JSON</li>
             <li><strong>Jeffrey Zeldman</strong> - Pionero en estándares web</li>
         </ul>
+        
         
         <h2>Instituciones y Estándares</h2>
         <ul>
@@ -43,7 +96,13 @@
             <li>Preprocesadores CSS: SASS, LESS</li>
             <li>JavaScript y Frameworks: React, Angular, Vue.js</li>
             <li>Backend para Web: Node.js, Django, PHP</li>
-            <li>Bases de datos en entornos web: MySQL, MongoDB</li>
+            <li>
+                <span class="toggle-button" onclick="toggleInfo()">Bases de datos en entornos web: MySQL, MongoDB ▼</span>
+                <div id="db-info">
+                    <p><strong>MySQL:</strong> Sistema de gestión de bases de datos relacional. Más información en: <a href="https://es.wikipedia.org/wiki/Base_de_datos_relacional" target="_blank">MySQL</a></p>
+                    <p><strong>MongoDB:</strong> Base de datos NoSQL orientada a documentos. Más información en: <a href="https://es.wikipedia.org/wiki/NoSQL" target="_blank">MongoDB</a></p>
+                </div>
+            </li>
             <li>Versionado y control de código: Git y GitHub</li>
         </ul>
     </div>
