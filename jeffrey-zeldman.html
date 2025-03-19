@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeffrey Zeldman - Pionero en Estándares Web</title>
+    <link rel="stylesheet" href="zeldman.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <h1>Jeffrey Zeldman</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#quien-es">¿Quién es?</a></li>
+                        <li><a href="#aportaciones">Aportaciones</a></li>
+                        <li><a href="#legado">Legado</a></li>
+                        <li><a href="#mas-info">Saber Más</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Foto de Jeffrey Zeldman -->
+    <section class="hero">
+        <div class="container">
+            <img src="zeldman.jpg" alt="Jeffrey Zeldman" class="photo">
+            <p>Jeffrey Zeldman, uno de los pioneros en la creación de estándares web.</p>
+        </div>
+    </section>
+
+    <!-- ¿Quién es? -->
+    <section id="quien-es" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>¿Quién es Jeffrey Zeldman?</h2>
+            </div>
+            <div class="content">
+                <p>Jeffrey Zeldman es un diseñador web reconocido, defensor de los estándares web y escritor. Su trabajo ha sido clave para la evolución del diseño web accesible, inclusivo y funcional.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aportaciones -->
+    <section id="aportaciones" class="section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Aportaciones Clave</h2>
+            </div>
+            <div class="content">
+                <p>Co-fundador del Web Standards Project (WaSP), promoviendo el uso de estándares como HTML, CSS y JavaScript para una web accesible. Su libro <i>Designing with Web Standards</i> transformó la comprensión del diseño accesible y proporcionó fundamentos claros para diseñadores web.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Legado -->
+    <section id="legado" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>El Legado de Zeldman</h2>
+            </div>
+            <div class="content">
+                <p>Su legado sigue vivo en la web moderna. Gracias a su enfoque en la accesibilidad y la eficiencia, el trabajo de Zeldman es esencial para el desarrollo de una web más abierta, útil e inclusiva para todos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Más Información -->
+    <section id="mas-info" class="section bg-dark text-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Conoce más sobre Jeffrey Zeldman</h2>
+            </div>
+            <div class="content">
+                <p>Para conocer más sobre la vida y la obra de Jeffrey Zeldman, visita su página oficial:</p>
+                <a href="https://www.zeldman.com" class="btn">Visitar página oficial</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Button Back to Index -->
+    <div class="back-to-index">
+        <a href="index.html" class="btn">Volver al índice</a>
+    </div>
+
+    <!-- Button Back to Top -->
+    <a href="#" class="back-to-top">↑ Volver arriba</a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Web Standards con Zeldman. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Scroll to top functionality
+        const backToTopBtn = document.querySelector('.back-to-top');
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
