@@ -1,7 +1,7 @@
 @charset "UTF-8";
 * {
-  font-family: Calibri, sans-serif; /* Mejoré la fuente con un fallback */
-  background-color: white; /* Fondo blanco para toda la página */
+  font-family: Calibri, sans-serif;
+  background-color: white;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,7 +12,7 @@ h1 {
 }
 
 body {
-  background-color: aliceblue; /* Fondo azul claro para el cuerpo */
+  background-color: #f0f8ff; /* Fondo azul claro */
   padding: 20px;
 }
 
@@ -31,7 +31,7 @@ img {
 .link {
   text-decoration: none;
   color: #0055b3; /* Azul francés para los enlaces */
-  transition: ease 0.3s; /* Corregí el tiempo de transición (era 0.5ms, ahora 0.3s) */
+  transition: ease 0.3s;
 }
 
 .link:hover {
@@ -39,24 +39,24 @@ img {
   color: #003366; /* Azul más oscuro al hacer hover */
 }
 
-.fwork {
+.tech {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  background-color: white; /* Fondo blanco para los cuadros de frameworks */
+  background-color: white;
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para resaltar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.fwork:hover {
-  transform: translateY(-5px); /* Efecto de levantar al hacer hover */
+.tech:hover {
+  transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-#react, #vuejs, #angular {
+#nodejs, #django, #php {
   flex-direction: column;
 }
 
@@ -67,7 +67,7 @@ h2 {
 }
 
 h3 {
-  color: #0055b3; /* Azul francés para los nombres de los frameworks */
+  color: #0055b3; /* Azul francés para los nombres de las tecnologías */
   margin-top: 10px;
 }
 
@@ -79,7 +79,7 @@ h3 {
 
 header {
   background-color: #0055b3; /* Azul francés para el encabezado */
-  color: white; /* Texto blanco para contrastar */
+  color: white;
   padding: 15px;
   border-radius: 10px;
   text-align: center;
