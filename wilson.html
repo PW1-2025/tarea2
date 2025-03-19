@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3C - World Wide Web Consortium</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h2 {
+            font-size: 2rem;
+            color: #0056b3;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background-color: #fff;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        ul li:hover {
+            transform: translateY(-5px);
+        }
+        a {
+            text-decoration: none;
+            color: #0056b3;
+        }
+        a:hover {
+            color: #ff6347;
+        }
+        .dropdown {
+            display: none;
+            padding-left: 20px;
+        }
+        .dropdown-btn {
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .dropdown-btn::after {
+            content: '\25BC';
+            float: right;
+            margin-left: 5px;
+        }
+        .dropdown-open .dropdown {
+            display: block;
+        }
+        .dropdown-open .dropdown-btn::after {
+            content: '\25B2';
+        }
+    </style>
+</head>
+<body>
+<h2>W3C</h2>
+<ul>
+    <li>
+        <strong><a href="https://en.wikipedia.org/wiki/World_Wide_Web" target="_blank">W3C</a></strong> - World Wide Web Consortium
+        <p>
+            <img src="https://www.w3.org/Icons/w3c_home" alt="Logo de W3C" width="150">
+        </p>
+        <p>
+            El <strong>W3C</strong> es la principal organización internacional encargada de desarrollar y mantener estándares abiertos para garantizar el crecimiento a largo plazo de la Web. Fundada en 1994 por Tim Berners-Lee, creador de la World Wide Web, su misión es desarrollar protocolos y directrices que aseguren el crecimiento continuo de la web.
+        </p>
+        <p class="dropdown-btn">Algunos logros clave del W3C:</p>
+        <ul class="dropdown">
+            <li><strong><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a></strong> - Lenguaje de marcado para la creación de páginas web.</li>
+            <li><strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a></strong> - Hojas de estilo en cascada que definen la presentación de las páginas web.</li>
+            <li><strong><a href="https://developer.mozilla.org/en-US/docs/Web/XML" target="_blank">XML</a></strong> - Lenguaje de marcado extensible que facilita la interoperabilidad entre sistemas.</li>
+            <li><strong><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">WCAG</a></strong> - Pautas de accesibilidad web que promueven la inclusión digital para personas con discapacidad.</li>
+        </ul>
+        <p>
+            El W3C también gestiona otras tecnologías críticas como WebAssembly, WebRTC y el estándar para gráficos SVG. Su objetivo es que la web sea accesible, internacional y utilizable por cualquier persona desde cualquier dispositivo.
+        </p>
+        <p>
+            <a href="https://www.w3.org" target="_blank">Página oficial del W3C</a> |
+            <a href="https://es.wikipedia.org/wiki/World_Wide_Web_Consortium" target="_blank">Artículo en Wikipedia</a> |
+            <a href="https://validator.w3.org/" target="_blank">Validador de W3C</a> (para validar código HTML/CSS).
+        </p>
+    </li>
+</ul>
+<script>
+    document.querySelectorAll('.dropdown-btn').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            this.parentElement.classList.toggle('dropdown-open');
+        });
+    });
+</script>
+</body>
+</html>
