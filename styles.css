@@ -95,6 +95,22 @@ code {
     border-radius: 3px;
 }
 
+
+.title {
+    border: 1px solid black;
+}
+
+.content {
+    max-height: 0;
+    transition: max-height 0.15s ease-out;
+    overflow: hidden;
+}
+
+.title:hover .content {
+    max-height: 500px;
+    transition: max-height 0.25s ease-in;
+}
+=======
 img {
     max-width: 100%;
     height: auto;
@@ -119,3 +135,4 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
