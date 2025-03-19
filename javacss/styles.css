@@ -1,0 +1,44 @@
+* {
+  font-family: Calibri;
+  background-color: aliceblue;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container .link {
+  text-decoration: none;
+  color: black;
+  transition: ease 0.5ms;
+}
+.container .link :hover {
+  transform: scale(1.1);
+}
+.container.fwork {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-items: center;
+  flex-direction: row;
+}
+.container.fwork#react {
+  flex-direction: column;
+}
+.container.fwork#vuejs {
+  flex-direction: column;
+}
+.container.fwork#angular {
+  flex-direction: column;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=styles.css.map */
