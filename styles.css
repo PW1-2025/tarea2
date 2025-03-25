@@ -18,12 +18,6 @@ body {
 
 }
 
-=======
-    margin: 20px;
-    padding: 20px;
-    background-color: #f4f4f4;
-    text-align: center;
-}
 
 h1, h2, h3 {
     color: #333;
@@ -110,7 +104,7 @@ code {
     max-height: 500px;
     transition: max-height 0.25s ease-in;
 }
-=======
+
 img {
     max-width: 100%;
     height: auto;
